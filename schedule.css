@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+
+    background-image: url('Health background.png');
+    background-position: center;
+    background-size: cover;
+
+}
+.container{
+    width: 860px;
+    height: 1100px;
+    margin: 2% auto;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+h3{
+    text-align: center;
+   /* margin-bottom: 1px; */
+    color: #777;
+}
+.container form{
+    width: 700px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    transition: 0.5s;
+
+}
+form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+::placeholder{
+    color: #777;
+}
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right,#2010ff,#0697ff);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+#Form2{
+    left: 450px;
+
+}
+#Form3{
+    left: 450px;
+}
+#Form4{
+    left: 450px;
+}
+#Form5{
+    left: 450px;
+}
+.step-row{
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+}
+.step-col{
+    width: 120px;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+#progress{
+    position:absolute;
+    height: 100%;
+    width: 120px;
+    background: linear-gradient(to right,#2010ff,#0697ff);
+    transition: 1s;
+}
+h4{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 25px;
+   color: green;
+}
+#progress::after{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #0697ff ;
+}
+.degree{
+    display: none;
+    align-items: baseline;
+}
+.select li{
+    display: inline-flex;
+}
+.submenu{
+    display: none;
+}
+.submenu{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.submenu ul li{
+    width: 550px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    background: transparent;
+    text-align: left;
+}
+.select:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+.special{
+    margin-bottom: 31px;
+    margin-top: 15px;
+}
+.check2{
+    width: 19%;
+}
+.check2f{
+    width: 22%;
+}
+.check2e{
+    width: 24%;
+}
+.check3{
+    width: 13%;
+}
+.check3f{
+    width: 25%;
+}
+.check3e{
+    width: 23%;
+}
+.check4{
+    width: 18%;
+}
+.check4f{
+    width: 23%;
+}
+.check4e{
+    width: 23%;
+}
+.check5{
+    width: 26%;
+}.check5f{
+    width: 19%;
+}
+.check5e{
+    width: 22%;
+}
+.check6{
+    width: 22%;
+}
+.check6f{
+    width: 21%;
+}
+.check6e{
+    width: 21%;
+}
+.check7{
+    width: 24%;
+}
+.check7f{
+    width: 21%;
+}
+.check7e{
+    width: 21%;
+}
+.check1{
+    width: 20%;
+}
+.check1f{
+    width: 22%;
+}
+.check1e{
+    width: 23%;
+}

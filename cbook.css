@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: white;
+    background-image: url('homepage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.succ{
+    background-color: rgba(255, 255, 255, 0.629);
+    height: 700px;
+    width: 75%;
+    border-radius: 30px;
+    box-shadow: 100cap;
+}
+
+.succm{
+    padding: 50px 10px;
+    
+    text-align: center;
+    font-size: 80px;
+    color: green;
+    
+}
+.succm1{
+    padding: 50px 10px;
+    
+    text-align: center;
+    font-size: 0px;
+    color: green;
+}

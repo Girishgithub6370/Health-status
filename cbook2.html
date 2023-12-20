@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="cbook2.css">
+    
+
+</head>
+<body onload="dissec()">
+    <div class="succ">
+        <h1 class="succm">
+            BOOKED SUCCESSFULLY !!!!!
+        </h1>
+        <h5 id="result" class="succm1"></h5>
+        <p>Click here to redirect to the home page <a href="upcoming.php">Click</a>.</p>
+    </div>
+    <script>
+        var sec=5;
+        
+        function dissec(){
+            
+            var result = document.getElementById("result");
+            result.innerHTML = "<b>This Page will redirect within  seconds "+sec+" seconds.";
+                sec-=1;
+        }
+        setInterval(dissec, 1000);
+        setTimeout(redi, 5000);
+        function redi(){
+            document.location.href = "upcoming.php";
+        }
+        
+        
+    </script>
+    
+</body>
+</html>
